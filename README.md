@@ -1,16 +1,42 @@
-# weather_app_tutorial
+# Weather App
 
-A new Flutter project.
+A Flutter weather application using the [OpenWeatherMap](https://openweathermap.org/) API to retrieve weather data.
+
+## Requirements
+
+Before running the project, make sure you have:
+* Flutter SDK
+* Dart SDK
+* Xcode (for iOS)
+* CocoaPods (for iOS)
+* Android Studio (for Android, if needed)
+
+Check your Flutter installation:
+
+```bash
+flutter doctor
+```
 
 ## Getting Started
+```bash
+git clone <repository-url>
 
-This project is a starting point for a Flutter application.
+cd weather_app
 
-A few resources to get you started if this is your first Flutter project:
+flutter pub get
+flutter pub upgrade
+flutter doctor
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## If the Project Has Build Problems
+Try cleaning the project and reinstalling dependencies:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter clean
+flutter pub get
+flutter run
+```
+
+## Note
+This is an older Flutter project. Some dependencies may require a compatible Flutter/Dart SDK version. If the project fails to build after cloning, check the dependency versions in `pubspec.yaml` and the Flutter/Dart version used by the project.
