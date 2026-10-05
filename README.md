@@ -19,7 +19,7 @@ flutter doctor
 
 ## Getting Started
 ```bash
-git clone <repository-url>
+git clone https://github.com/chhinsreypich/weather_app.git
 
 cd weather_app
 
